@@ -32,7 +32,6 @@
           <previewCurrent />
           <waterMark />
           <save></save>
-          <login></login>
           <lang></lang>
         </div>
       </Header>
@@ -150,7 +149,6 @@ import dragMode from '@/components/dragMode.vue';
 import lock from '@/components/lock.vue';
 import dele from '@/components/del.vue';
 import waterMark from '@/components/waterMark';
-import login from '@/components/login';
 // 左侧组件
 import importTmpl from '@/components/importTmpl.vue';
 import tools from '@/components/tools.vue';
