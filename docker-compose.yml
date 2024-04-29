@@ -1,0 +1,10 @@
+version: "3"
+services:
+  talk-ai-front:
+    image: aolifu/vue-fabric-editor:v1
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped
+    container_name: vue-fabric-editor
+    ports:
+      - "11003:80"
