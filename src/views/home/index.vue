@@ -30,7 +30,7 @@
       </Header>
       <Content style="display: flex; height: calc(100vh - 64px)">
         <!-- 左侧区域 -->
-        <div v-if="state.show" :class="`left-bar ${state.toolsBarShow && 'show-tools-bar'}`">
+        <div v-if="false" :class="`left-bar ${state.toolsBarShow && 'show-tools-bar'}`">
           <Menu :active-name="state.menuActive" accordion @on-select="showToolsBar" width="65px">
             <MenuItem :name="1" class="menu-item">
               <Icon type="md-book" size="24" />
