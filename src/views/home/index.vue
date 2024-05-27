@@ -4,7 +4,7 @@
       <!-- 头部区域 -->
       <Header v-if="state.show">
         <!-- 导入 -->
-        <import-Json></import-Json>
+        <!-- <import-Json></import-Json> -->
         <Divider type="vertical" />
         <import-file></import-file>
         <Divider type="vertical" />
@@ -124,7 +124,7 @@
 
 <script name="Home" setup>
 // 导入元素
-import importJson from '@/components/importJSON.vue';
+// import importJson from '@/components/importJSON.vue';
 import importFile from '@/components/importFile.vue';
 import fontTmpl from '@/components/fontTmpl.vue';
 
