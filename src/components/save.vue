@@ -20,11 +20,11 @@
       </Button>
       <template #list>
         <DropdownMenu>
-          <DropdownItem name="clipboard">{{ $t('copy_to_clipboard') }}</DropdownItem>
-          <DropdownItem name="clipboardBase64">{{ $t('copy_to_clipboardstr') }}</DropdownItem>
+          <!-- <DropdownItem name="clipboard">{{ $t('copy_to_clipboard') }}</DropdownItem>
+          <DropdownItem name="clipboardBase64">{{ $t('copy_to_clipboardstr') }}</DropdownItem> -->
           <DropdownItem name="saveImg">{{ $t('save_as_picture') }}</DropdownItem>
           <DropdownItem name="saveSvg">{{ $t('save_as_svg') }}</DropdownItem>
-          <DropdownItem name="saveJson" divided>{{ $t('save_as_json') }}</DropdownItem>
+          <!-- <DropdownItem name="saveJson" divided>{{ $t('save_as_json') }}</DropdownItem> -->
         </DropdownMenu>
       </template>
     </Dropdown>
