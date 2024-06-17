@@ -87,7 +87,8 @@ const beforeClear = () => {
 
 <style scoped lang="less">
 .save-box {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding-right: 10px;
 }
 </style>

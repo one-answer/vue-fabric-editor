@@ -20,7 +20,8 @@
         <Divider type="vertical" />
         <history></history>
 
-        <div style="float: right">
+        <div class="header_right">
+          <div class="flex_1"></div>
           <!-- 预览 -->
           <previewCurrent />
           <waterMark />
@@ -370,8 +371,20 @@ provide('canvasEditor', canvasEditor);
   background: #fff;
   height: var(--height);
   line-height: var(--height);
+  display: flex;
+  align-items: center;
 }
 
+.flex_1 {
+  flex: 1;
+}
+
+.header_right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
 .home,
 .ivu-layout {
   height: 100vh;
